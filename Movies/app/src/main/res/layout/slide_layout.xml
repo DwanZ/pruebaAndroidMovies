@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/util_y_facil" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/slide_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIRED"
+            android:layout_gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slide_text"
+            android:layout_width="match_parent"
+            android:padding="12dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:text="SIRED es un sistema que te permite realizar la gestión de los recaudos propios, externos y de corresponsales bancarias"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="backdrop">backdrop</string>
+    <string name="user_votes">User votes</string>
+    <string name="average">Average</string>
+    <string name="calendar">calendar</string>
+    <string name="poster">poster</string>
+</resources>
